@@ -80,9 +80,9 @@ header {
 /*ロゴ画像*/
 header #logo {
 	position: absolute;z-index: 1;
-	left: 40%;	/*左からの配置場所*/
+	left: 35%;	/*左からの配置場所*/
 	top: 60%;	/*上からの配置場所*/
-	width: 20%;	/*幅*/
+	width: 30%;	/*幅*/
 }
 /*ロゴ画像（※トップページへの追加設定）*/
 .home header #logo {
