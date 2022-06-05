@@ -41,22 +41,22 @@
 <h2>CONTACT<br><span>お問い合わせフォーム</span></h2>
 
 <!-- フォームの情報はここからです -->
-<form name="form1" enctype="multipart/form-data" method="post" action="<?php echo $_SERVER["REQUEST_URI"];?>">
+<form name="form1" enctype="multipart/form-data" method="post" action="form.php">
 <input type="hidden" name="mode" value="form">
 <table class="ta1">
 <!-- 入力／確認 -->
 <!--<tr><th class="tamidashi" colspan="2">お問い合わせフォーム</th></tr>-->
 <tr>
-<th width="150">お名前<span style="color:red">※</span></th>
+<th width="150">Name<span style="color:red">※</span></th>
 <td>
-<input name="item1" value="<?php echo $form["item1"];?>" type="text" size="40" maxlength="500" class="ws">
+<input name="item1" value="form.php" type="text" size="40" maxlength="500" class="ws">
 <?php if ($msg["item1"]) echo '<div style="color:red">' . $msg["item1"] . '</div>'; ?>
 </td>
 </tr>
 <tr>
 <th width="150">メールアドレス<span style="color:red">※</span></th>
 <td>
-<input name="item2" value="<?php echo $form["item2"];?>" type="text" size="40" maxlength="500" class="ws">
+<input name="item2" value="form.php" type="text" size="40" maxlength="500" class="ws">
 <?php if ($msg["item2"]) echo '<div style="color:red">' . $msg["item2"] . '</div>'; ?>
 </td>
 </tr>
