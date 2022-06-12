@@ -484,3 +484,23 @@ header #logo {
 	margin-right: auto;
 	width: 50%;
 }
+
+.linkheader {
+	font-size: x-large;
+	position: absolute;z-index: 1;
+	left: 28%;	/*左からの配置場所*/
+	top: 40%;	/*上からの配置場所*/
+	width: 45%;	/*幅*/
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+	font-size: 25px;
+	font-weight: normal;
+	color: gray;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 20% 20% 20% 20%;
+}
+
+.linkheader a:link {
+	text-decoration: none;
+}
