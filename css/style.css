@@ -464,10 +464,23 @@ header #logo {
 	height: 400px;
 }
 
+.centerparagraph {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
 .centervideo {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 560px;
 	height: 315px;
+}
+
+.images {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
 }
