@@ -205,7 +205,7 @@ header #logo {
 	overflow: hidden;
 	border-radius: 50%;		/*円形にする指定。この１行を削除すれば四角形になります。30pxなどに変更すれば角丸の四角形になります。*/
 	margin: 0 6.6% 40px;	/*上、左右、下へ空けるスペース。サムネイル同士の余白部分です。*/
-	width: 20%;	/*幅*/
+	width: 15%;	/*幅*/
 }
 
 /*フッター設定
@@ -496,7 +496,7 @@ header #logo {
 	text-align: center;
 	margin: 0px;
 	padding: 5px;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: normal;
 	color: gray;
 	background: rgba(255, 255, 255, 0.8);
@@ -516,7 +516,7 @@ header #logo {
 	text-align: center;
 	margin: 0px;
 	padding: 5px;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: normal;
 	color: gray;
 	background: rgba(255, 255, 255, 0.3);
