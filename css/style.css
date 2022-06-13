@@ -87,6 +87,8 @@ header #logo {
 /*ロゴ画像（※トップページへの追加設定）*/
 .home header #logo {
 	top: 30%;	/*上からの配置場所*/
+	background: rgba(255,255,255,0.7);
+	border-radius: 20% 20% 20% 20%;
 }
 
 /*３本バーアイコン設定
@@ -497,7 +499,7 @@ header #logo {
 	font-size: 25px;
 	font-weight: normal;
 	color: gray;
-	background: rgba(255, 255, 255, 0.3);
+	background: rgba(255, 255, 255, 0.8);
 	border-radius: 20% 20% 20% 20%;
 }
 
